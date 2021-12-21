@@ -15,7 +15,7 @@ for observed in frequency_table:
 
 
 degrees_of_freedom = categories - 1
-significance = 0.99
+significance = 0.95
 critical_chi_square = stats.chi2.ppf(1 - significance, degrees_of_freedom)
 
 
